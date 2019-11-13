@@ -110,6 +110,14 @@
   }
 }
 
+.login{
+  &__panel{
+    max-width: 456px;
+    margin: 0 auto;
+    background: #fff;
+  }
+}
+
 .registration{
   font-size: 22px;
   padding: 32px;
