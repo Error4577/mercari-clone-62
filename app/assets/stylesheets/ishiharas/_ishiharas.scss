@@ -80,6 +80,7 @@
     }
     &__inner{
       padding: 24px 16px 40px;
+      border-top: solid 1px #f5f5f5;
     }
     &__content{
       max-width: 343px;
@@ -92,6 +93,9 @@
     &__text{
       margin: 8px 0 0;
       padding: 0;
+    }
+    &__sms-notice{
+      margin: 34px;
     }
   }
   &-chapter{
@@ -109,9 +113,6 @@
 .registration{
   font-size: 22px;
   padding: 32px;
-  &-form{
-    border-top: solid 1px #f5f5f5;
-  }
 }
 
 .input-default{
@@ -198,6 +199,12 @@
     color: #fff;
     margin: 24px 0 0;
   }
+  &-gray{
+    background: #aaa;
+    border: solid 1px #aaa;
+    color: #fff;
+    margin: 16px 0 0;
+  }
   &-mail{
     color: #fff;
     background-color: #ea352d;
@@ -217,6 +224,10 @@
   }
 }
 
+.code-resend__form{
+  margin-top: 34px;
+}
+
 .text{
   &-center{
     text-align: center;
@@ -224,6 +235,10 @@
   &-right{
     text-align: right;
   }
+}
+
+.bold{
+  font-weight: 600;
 }
 
 .icon{
@@ -390,4 +405,8 @@
       display: none;
     }
   }
+}
+
+p.sms-notice:last-of-type{
+  margin-top: 34px;
 }
