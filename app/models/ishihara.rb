@@ -1,0 +1,2 @@
+class Ishihara < ApplicationRecord
+end
